@@ -69,10 +69,10 @@
 
         mac_layer {
             bindings = <
-     &kp ESC  &kp Q  &kp W      &kp E    &kp R     &kp T          &kp Y      &kp U          &kp I    &kp O      &kp P  &kp BACKSPACE
-&kp CAPSLOCK  &kp A  &kp S      &kp D    &kp F     &kp G          &kp H      &kp J          &kp K    &kp L  &kp ENTER  &kp SEMICOLON
-   &kp LSHFT  &kp Z  &kp X      &kp C    &kp V     &kp B          &kp N      &kp M      &kp COMMA  &kp DOT   &kp FSLH        &kp TAB
-                            &kp LCTRL  &lt 1 0  &kp LWIN    &lt 2 ENTER  &kp SPACE  &kp RIGHT_ALT
+     &kp ESC  &kp Q  &kp W      &kp E    &kp R     &kp T      &kp Y      &kp U          &kp I    &kp O      &kp P  &kp BACKSPACE
+&kp CAPSLOCK  &kp A  &kp S      &kp D    &kp F     &kp G      &kp H      &kp J          &kp K    &kp L  &kp ENTER  &kp SEMICOLON
+   &kp LSHFT  &kp Z  &kp X      &kp C    &kp V     &kp B      &kp N      &kp M      &kp COMMA  &kp DOT   &kp FSLH        &kp TAB
+                            &kp LCTRL  &lt 1 0  &kp LWIN    &lt 2 0  &kp SPACE  &kp RIGHT_ALT
             >;
         };
 
