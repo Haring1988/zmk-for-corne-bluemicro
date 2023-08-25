@@ -89,7 +89,7 @@
             bindings = <
 &kp LS(GRAVE)  &kp LS(NUMBER_1)   &kp LS(NUMBER_2)  &kp LS(NUMBER_3)  &kp LS(NUMBER_4)  &kp LS(NUMBER_5)    &kp LS(NUMBER_6)          &kp LS(NUMBER_7)      &kp LS(NUMBER_8)       &kp LS(NUMBER_9)   &kp LS(NUMBER_0)  &kp BACKSPACE
    &kp DELETE     &kp LS(MINUS)      &kp LS(EQUAL)             &none             &none             &none               &none  &kp LS(NON_US_BACKSLASH)  &kp LS(LEFT_BRACKET)  &kp LS(RIGHT_BRACKET)  &kp LS(SEMICOLON)    &kp LS(SQT)
-       &trans        &kp K_MUTE  &kp C_VOLUME_DOWN   &kp C_VOLUME_UP             &none             &none               &none                     &none                 &none                  &none      &kp RC(SLASH)          &none
+       &trans        &kp C_MUTE  &kp C_VOLUME_DOWN   &kp C_VOLUME_UP             &none             &none               &none                     &none                 &none                  &none      &kp RC(SLASH)          &none
                                                                &none             &none         &kp ENTER           &kp SPACE                     &none                 &none
             >;
         };
