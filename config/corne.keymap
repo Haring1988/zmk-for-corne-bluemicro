@@ -78,10 +78,10 @@
 
         win_layer {
             bindings = <
-&kp GRAVE  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5    &kp NUMBER_6         &kp N7            &kp N8             &kp N9          &kp N0    &kp BACKSPACE
-  &kp DEL     &kp MINUS     &kp EQUAL        &kp F2        &kp F5         &none           &none  &kp BACKSLASH  &kp LEFT_BRACKET  &kp RIGHT_BRACKET    &kp UP_ARROW          &kp SQT
-&kp LSHFT         &none     &phonenum     &keywords      &kp HOME       &kp END     &kp PAGE_UP  &kp PAGE_DOWN             &none     &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW
-                                              &none         &none         &none       &kp SPACE      &kp ENTER             &none
+&kp GRAVE  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5     &kp NUMBER_6         &kp N7            &kp N8             &kp N9          &kp N0    &kp BACKSPACE
+  &kp DEL     &kp MINUS     &kp EQUAL        &kp F2        &kp F5      &kp HOME      &kp PAGE_UP  &kp BACKSLASH  &kp LEFT_BRACKET  &kp RIGHT_BRACKET    &kp UP_ARROW          &kp SQT
+&kp LSHFT         &none         &none     &keywords     &phonenum       &kp END    &kp PAGE_DOWN          &none             &none     &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW
+                                              &none         &none         &none        &kp SPACE      &kp ENTER             &none
             >;
         };
 
@@ -89,7 +89,7 @@
             bindings = <
 &kp LS(GRAVE)  &kp LS(NUMBER_1)   &kp LS(NUMBER_2)  &kp LS(NUMBER_3)  &kp LS(NUMBER_4)  &kp LS(NUMBER_5)    &kp LS(NUMBER_6)          &kp LS(NUMBER_7)      &kp LS(NUMBER_8)       &kp LS(NUMBER_9)   &kp LS(NUMBER_0)  &kp BACKSPACE
    &kp DELETE     &kp LS(MINUS)      &kp LS(EQUAL)             &none             &none             &none               &none  &kp LS(NON_US_BACKSLASH)  &kp LS(LEFT_BRACKET)  &kp LS(RIGHT_BRACKET)  &kp LS(SEMICOLON)    &kp LS(SQT)
-       &trans        &kp C_MUTE  &kp C_VOLUME_DOWN   &kp C_VOLUME_UP             &none             &none               &none                     &none                 &none                  &none      &kp RC(SLASH)          &none
+       &trans        &kp C_MUTE  &kp C_VOLUME_DOWN   &kp C_VOLUME_UP             &none             &none               &none                     &none         &kp LS(COMMA)         &kp LS(PERIOD)      &kp LS(SLASH)          &none
                                                                &none             &none         &kp ENTER           &kp SPACE                     &none                 &none
             >;
         };
