@@ -96,10 +96,10 @@
 
         layer_2 {
             bindings = <
-&kp KP_NUMLOCK      &kp PLUS         &kp MINUS   &kp KP_N7        &kp KP_N8  &kp NUMBER_9    &kp LC(C)     &trans     &kp UP     &trans  &trans  &kp BACKSPACE
-     &kp EQUAL  &kp ASTERISK  &kp RS(KP_SLASH)   &kp KP_N4        &kp KP_N5     &kp KP_N6    &kp LC(V)   &kp LEFT   &kp DOWN  &kp RIGHT  &trans         &trans
-&kp LEFT_SHIFT        &kp N0           &kp DOT   &kp KP_N1  &kp KP_NUMBER_2     &kp KP_N3    &kp LC(X)  &kp LC(Z)  &kp LC(Y)     &trans  &trans         &trans
-                                                &kp DELETE    &kp BACKSPACE        &trans    &kp ENTER     &trans     &trans
+&kp KP_NUMLOCK      &kp PLUS     &kp MINUS   &kp KP_N7        &kp KP_N8  &kp NUMBER_9    &kp LC(C)      &none     &kp UP      &none     &trans  &kp BACKSPACE
+     &kp EQUAL  &kp ASTERISK  &kp KP_SLASH   &kp KP_N4        &kp KP_N5     &kp KP_N6    &kp LC(V)   &kp LEFT   &kp DOWN  &kp RIGHT  &kp ENTER          &none
+&kp LEFT_SHIFT        &kp N0       &kp DOT   &kp KP_N1  &kp KP_NUMBER_2     &kp KP_N3    &kp LC(X)  &kp LC(Z)  &kp LC(Y)      &none      &none        &kp TAB
+                                            &kp DELETE    &kp BACKSPACE         &none    &kp ENTER      &none      &none
             >;
         };
 
